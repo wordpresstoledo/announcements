@@ -15,3 +15,9 @@
     content: "\A";
     white-space: pre;
 }
+.heavy {
+    font-weight: 700 !important;
+}
+.bisque {
+    color: bisque !important;
+}
