@@ -2,8 +2,32 @@
  *  Special addtions for this site
 */
 
-.meetup-and {
-        font-style: italic !important;
+/* SVG */
+.wplogo {
+    display: block;
+    height: 150px;
+    margin: 10px auto;
+}
+.meetup_svg {
+    display: block;
+    width: 70px;
+    margin: 10px auto;
+}
+.org_svg {
+    display: block;
+   height: 60px;
+    margin: 10px auto;
+}
+
+/* Span Appearance */
+.force-wrap:before {
+    content: "\A";
+    white-space: pre;
+}
+
+/* Text Styles */
+.meetup-and { /* italicized & character */
+    font-style: italic !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     font-size: 2rem !important;
     margin-right: 0.25rem !important;
@@ -11,13 +35,35 @@
 .meetup-date {
     font-size: 3.4rem !important;
 }
-.force-wrap:before {
-    content: "\A";
-    white-space: pre;
-}
 .heavy {
     font-weight: 700 !important;
 }
 .bisque {
     color: bisque !important;
+}
+.burlywood {
+    color: burlywood !important;
+}
+
+/* Flexbox */
+.wrapper{				
+    display: flex;	
+    min-height: 50vh;
+    flex-wrap: wrap;
+}
+.wrapper a {
+    color: #D55027;
+}
+.wrapper a:hover {
+    color: rgb(254, 92, 43);
+}
+.col {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: 1.4rem !important;
+    justify-content: center;
+    min-width: 300px;
+    border: 1px solid white;
+    border-radius: 3px;
 }
