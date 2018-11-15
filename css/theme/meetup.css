@@ -48,7 +48,7 @@
 /* Flexbox */
 .wrapper{				
     display: flex;	
-    min-height: 50vh;
+    min-height: 30vh;
     flex-wrap: wrap;
 }
 .wrapper a {
